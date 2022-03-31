@@ -8,6 +8,5 @@ node_modules
 
 # misc
 .env
-/.env
 /test.http
 test.http

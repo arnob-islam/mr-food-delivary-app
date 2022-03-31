@@ -19,7 +19,7 @@ import { createStore } from "redux";
 import { RootReducer } from "./Redux/Provider";
 
 const httpLink = new HttpLink({
-  uri: "http://localhost:5000/graphql",
+  uri: "/graphql",
   credentials: "include",
 });
 

@@ -6,7 +6,7 @@ import { GET_ADMIN } from "../../Graphql/Query/AdminQuery";
 import io from "socket.io-client";
 const Context = createContext();
 
-const socket = io.connect("http://localhost:5000/");
+const socket = io.connect("/");
 
 const GlobalContext = ({ children }) => {
   const { data, loading } = useQuery(GET_USER);
