@@ -7,6 +7,6 @@ node_modules
 
 
 # misc
-.env
+
 /test.http
 test.http
