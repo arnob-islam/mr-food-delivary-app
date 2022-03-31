@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+.service_sector .ant-carousel .slick-dots {
+  position: initial !important;
+  padding-top: 1.5rem;
+}
+
+img,
+svg:not(.anticon svg) {
+  vertical-align: middle;
+}
+
+.ant-drawer-title {
+  text-align: center;
+}
+
+.loading_box {
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loading_box .loading_content {
+  width: 100%;
+}
+
+.loading_box .MuiSkeleton-rectangular,
+.loading_box .MuiSkeleton-text {
+  background-color: #ffffff4f !important;
+  border-radius: 0.5rem;
+}
+
+body {
+  background: #0c1a28 !important;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif !important;
+  font-family: "Source Sans Pro", sans-serif !important;
+  color: #f1f1f1 !important;
+}
+
+.j-c-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.a-i-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.j-c-s-b {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.f-d-c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.m-h-100-vh {
+  min-height: 100vh !important;
+}
+
+.font-thin {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.c-red {
+  color: #f94848;
+}
+
+/* 
+
+************************ ************* local **********************
+
+*/
+.link_box a {
+  padding: 0 0.5rem;
+}
+
+.link_box a:first-child {
+  border-right: 1px solid #7c7c7c !important;
+}
+
+.bg_auth_ {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.auth_title h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1890ff;
+}
+
+.auth_title span {
+  font-size: 1.19rem;
+  font-weight: 600;
+}
+
+.logo__branding {
+  cursor: pointer;
+}
+
+.logo__branding img {
+  width: 2rem;
+}
+
+.logo__branding .nav_home_link {
+  color: white;
+}
+
+.user_profile {
+  text-decoration: none;
+  background: #404254;
+  border-radius: 1rem;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.user_profile:hover {
+  background: #4a4c5e;
+}
+
+.more_option button svg {
+  color: white;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.login_button_nav a {
+  color: white;
+}
+
+.login_button_nav svg {
+  color: white;
+  margin-right: 0.5rem;
+}
+
+section.banner_crosoel_sec {
+  height: calc(95vh - 66px);
+}
+
+section.banner_crosoel_sec .f-b {
+  height: 100%;
+}
+
+section.banner_crosoel_sec .full_banner_wrapper {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center;
+}
+
+section.banner_crosoel_sec .banner_content_wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+/*# sourceMappingURL=app.css.map */

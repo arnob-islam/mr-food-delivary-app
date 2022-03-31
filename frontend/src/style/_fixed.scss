@@ -1,0 +1,26 @@
+.service_sector {
+  .ant-carousel .slick-dots {
+    position: initial !important;
+    padding-top: 1.5rem;
+  }
+}
+img,
+svg:not(.anticon svg) {
+  vertical-align: middle;
+}
+.ant-drawer-title {
+  text-align: center;
+}
+
+.loading_box {
+  gap: 1rem;
+  align-items: center;
+  .loading_content {
+    width: 100%;
+  }
+  .MuiSkeleton-rectangular,
+  .MuiSkeleton-text {
+    background-color: #ffffff4f !important;
+    border-radius: 0.5rem;
+  }
+}
